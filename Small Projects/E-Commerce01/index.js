@@ -1,26 +1,33 @@
+
 let XHR = new XMLHttpRequest; 
 
+let allProducts = []
 
 // Get Data 
 XHR.open('GET', 'https://fakestoreapi.com/products'); 
-XHR.send()
+XHR.send();
 
 XHR.addEventListener('readystatechange', function(){
 
     if(XHR.readyState == 4){
-        console.log(JSON.parse(XHR.response))
+        allProducts = JSON.parse(XHR.response)
+        display()
     }
 })
 
-//  POST Data
+function display(){
 
-const product = { title: 'New Product', price: 29.99 };
-fetch('https://fakestoreapi.com/products', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(product)
-})
-  .then(response => response.json())
-  .then(data => console.log(data));
+  var box = ``
+  for( i = 0; i < allProducts.length ; i++ ){
+    box+=` 
+       <div class="col-lg-4 ">
+            <img class = "w-100" src="${allProducts[i].image}" alt="">
+            <h3>${allProducts[i].title}</h3>
+            <p>${allProducts[i].description}</p>
+        </div>
+    
+    `
+  }
 
-  console.log(product);
+  document.getElementById('row').innerHTML=box
+}

@@ -20,10 +20,11 @@ function display(){
   var box = ``
   for( i = 0; i < allProducts.length ; i++ ){
     box+=` 
-       <div class="col-lg-4 ">
-            <img class = "w-100" src="${allProducts[i].image}" alt="">
+       <div class="col-lg-4  ">
+            
+            <img class = "w-100" height = 400 src="${allProducts[i].image}" alt="">
             <h3>${allProducts[i].title}</h3>
-            <p>${allProducts[i].description}</p>
+            <p>${allProducts[i].description.substring(0,40, )} .......</p>
         </div>
     
     `

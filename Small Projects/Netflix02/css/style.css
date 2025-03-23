@@ -123,7 +123,28 @@ img{
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #837f7f;
+    
 }
+
+.tabs p{
+    font-size:1.2rem ;
+    padding-top: 0.5rem;
+} 
+
+.tabs .container > div {
+    padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+    color: white;
+    cursor:pointer;
+}
+
+.tab-bordere{
+    border-bottom: var(--primary-color) 4px solid;
+}
+
 /* Buttons */
 
 .btn{

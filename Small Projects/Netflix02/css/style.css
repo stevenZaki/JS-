@@ -210,6 +210,10 @@ text-align: left;
 padding-left: 1rem;
 }
 
+/* .table tbody tr:nth-child(odd){
+    background-color: #8e040a; 
+} */
+
 /* Container */
 .container{
     max-width: 70%;

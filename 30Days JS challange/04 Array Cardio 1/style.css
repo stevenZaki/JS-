@@ -1,0 +1,14 @@
+html{
+    background-color: rgba(20, 17, 56, 0.717);
+}
+
+
+em{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight:900;
+    margin-top: 40px;
+}

@@ -1,4 +1,4 @@
-# Foody: A sesmple site for food
+# Foody: A simple site for food
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 

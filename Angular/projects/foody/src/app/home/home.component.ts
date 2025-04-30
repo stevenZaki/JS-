@@ -9,8 +9,10 @@ import { FoodService } from '../services/food/food.service';
 })
 export class HomeComponent {
 
+  foods:string[] = [];
   constructor (private foodService:FoodService){
-    
+
+
   }
 
 }

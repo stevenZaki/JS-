@@ -6,14 +6,15 @@ import { Injectable } from '@angular/core';
 export class FoodService {
 
   constructor() { }
+
   getAll(): string[]{
     return[
-      '/assest/images/foods/food-1/jpg',
-      '/assest/images/foods/food-2/jpg',
-      '/assest/images/foods/food-3/jpg',
-      '/assest/images/foods/food-4/jpg',
-      '/assest/images/foods/food-5/jpg',
-      '/assest/images/foods/food-6/jpg',
+      '../../../assets/Images/food-1.jpg',
+      '../../../assets/Images/food-2.jpg',
+      '../../../assets/Images/food-3.jpg',
+      '../../../assets/Images/food-4.jpg',
+      '../../../assets/Images/food-5.jpg',
+      '../../../assets/Images/food-6.jpg',
     ]
   }
 }

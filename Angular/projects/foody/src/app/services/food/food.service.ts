@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import{food} from '../../shared/models/food',
 
 @Injectable({
   providedIn: 'root'
@@ -7,14 +8,13 @@ export class FoodService {
 
   constructor() { }
 
-  getAll(): string[]{
+  getAll(): food[]{
     return[
-      '../../../assets/Images/food-1.jpg',
-      '../../../assets/Images/food-2.jpg',
-      '../../../assets/Images/food-3.jpg',
-      '../../../assets/Images/food-4.jpg',
-      '../../../assets/Images/food-5.jpg',
-      '../../../assets/Images/food-6.jpg',
+      {
+        id:1,
+        name:'Pizza pepperoni',
+        cookTime:'10-20',
+      }
     ]
   }
 }

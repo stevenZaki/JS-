@@ -5,7 +5,7 @@ export class food {
   tags?:string[]
   favorite:boolean = false;
   stars:number = 0;
-  imagurl!:string;
-  originas!:string;
+  imageUrl!:string;
+  origins!:string[];
   cookTime!:string;
 }

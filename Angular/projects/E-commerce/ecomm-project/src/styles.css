@@ -6,3 +6,43 @@ body{
   margin-left: 5%;
   margin-right: 5% ;
 }
+
+.sign-up{
+text-align: center;
+
+}
+
+.sign-up h1{
+margin-top: 50px;
+margin-bottom: 80px;
+color: blueviolet;
+
+}
+
+.common-form{
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: auto;
+}
+
+.form-input{
+   height: 35px;
+   margin-bottom: 20px;
+   border: 1px solid blueviolet;
+   padding-left: 50px;
+   color: blueviolet;
+  /* text-align: left;
+  direction: ltr; */
+  }
+
+/* .form-input::placeholder {
+  text-align: left;
+} */
+
+.form-button{
+  height: 35px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  cursor: pointer;
+}

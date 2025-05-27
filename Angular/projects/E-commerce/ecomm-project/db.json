@@ -1,5 +1,22 @@
 {
-  "seller":[
-    
+  "seller": [
+    {
+      "id": "d469",
+      "name": "steven",
+      "email": "steven@seller.com",
+      "password": "abc123"
+    },
+    {
+      "id": "6c4f",
+      "name": "sam",
+      "email": "sam@seller.com",
+      "password": "abcd1234"
+    },
+    {
+      "id": "0996",
+      "name": "peter",
+      "password": "abcd12345",
+      "email": "peter@test.com"
+    }
   ]
 }

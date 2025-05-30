@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {} from '../../app/data-type'
+export {signUp} from '../data-type'
 
 @Injectable({
   providedIn: 'root'

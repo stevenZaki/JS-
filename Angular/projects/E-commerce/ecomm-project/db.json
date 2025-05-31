@@ -17,6 +17,12 @@
       "name": "peter",
       "password": "abcd12345",
       "email": "peter@test.com"
+    },
+    {
+      "id": "eb0c",
+      "name": "peter",
+      "password": "aasd",
+      "email": "aps@ads.com"
     }
   ]
 }

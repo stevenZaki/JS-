@@ -13,11 +13,7 @@ export class SellerAuthComponent {
 
   signUp(data:signUp):void{
     console.warn(data)
-    this.seller.userSignUp(data).subscribe((result)=>{
-      if(result){
-        this.router.navigate(['/seller-home'])
-      }
-    })
+    this.seller.userSignUp(data);
   }
 
 }

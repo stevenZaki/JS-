@@ -23,6 +23,18 @@
       "name": "peter",
       "password": "aasd",
       "email": "aps@ads.com"
+    },
+    {
+      "id": "90ce",
+      "name": "alex",
+      "password": "lll",
+      "email": "alex@test.com"
+    },
+    {
+      "id": "f35b",
+      "name": "sa",
+      "password": "sa",
+      "email": "sa@test.com"
     }
   ]
 }

@@ -6,9 +6,13 @@ import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { authGuard } from './auth.guard';
 
 const routes: Routes = [
+  { path:'home',component:HomeComponent},
+
   {
     component:HomeComponent,
-    path:''
+    path:'',
+
+
   },
   {
     component:SellerAuthComponent,

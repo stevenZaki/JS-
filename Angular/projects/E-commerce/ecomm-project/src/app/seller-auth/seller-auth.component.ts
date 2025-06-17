@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent {
+  showLogin =true
   constructor(private seller:SellerService){}
 
 
@@ -19,6 +20,20 @@ export class SellerAuthComponent {
   signUp(data:signUp):void{
     console.warn(data)
     this.seller.userSignUp(data);
+  }
+
+  login(data:signUp):void{
+    console.warn(data)
+    this.seller.userSignUp(data);
+  }
+
+
+  openLogin(){
+    this.showLogin=true
+  }
+
+  openSignUp(){
+    this.showLogin=false
   }
 
 }

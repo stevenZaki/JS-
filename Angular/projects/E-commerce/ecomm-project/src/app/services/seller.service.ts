@@ -32,4 +32,7 @@ isSellerLoggedIn = new BehaviorSubject <boolean>(false);
       this.router.navigate(['seller-home'])
     }
   }
+  userLogin(){
+    console.warn(data)
+  }
 }

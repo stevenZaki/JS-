@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./seller-auth.component.css']
 })
 export class SellerAuthComponent {
-  showLogin =true
+  showLogin =true;
+  authError:string='';
   constructor(private seller:SellerService){}
 
 
@@ -23,8 +24,13 @@ export class SellerAuthComponent {
   }
 
   login(data:signUp):void{
-    console.warn(data)
-    this.seller.userSignUp(data);
+    // console.warn(data)
+    this.seller.userLogin(data);
+    this.seller.isLoginError.subscribe((isError)=>{
+      if(isError){
+        this.authError = "Email or Password is not correct";
+      }
+    })
   }
 
 

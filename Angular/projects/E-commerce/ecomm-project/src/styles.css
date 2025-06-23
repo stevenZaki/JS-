@@ -46,3 +46,7 @@ margin: auto;
   color: blueviolet;
   cursor: pointer;
 }
+
+.error-p{
+  color: red;
+}

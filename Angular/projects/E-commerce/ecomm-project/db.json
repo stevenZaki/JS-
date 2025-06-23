@@ -35,6 +35,12 @@
       "name": "sa",
       "password": "sa",
       "email": "sa@test.com"
+    },
+    {
+      "id": "7e23",
+      "name": "sam",
+      "email": "sam@seller.com",
+      "password": "abcd1234"
     }
   ]
 }
